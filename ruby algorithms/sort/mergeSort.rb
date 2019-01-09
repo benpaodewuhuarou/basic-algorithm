@@ -2,7 +2,7 @@ def merge (left,right)
   arr=[]
   while left.length>0 && !right.empty?
     if left[0]>=right[0]
-         arr.<< right.shift
+         arr << right.shift
     else
         number = left.shift
         arr.push(number)
